@@ -41,6 +41,9 @@ The Medical Diagnosis System is designed with a modular architecture to ensure s
 5.	Specialist Recommendation Module:
 -	Maps diagnosed diseases to relevant specialists within the Tempe and Phoenix areas.
 -	Provides contact information and location details for specialists.
+
+  ![image](https://github.com/user-attachments/assets/5670e904-002c-42fd-bb4a-2e5b01d52efb)
+
  
 
 # Implementation
