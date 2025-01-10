@@ -11,6 +11,25 @@ The primary objectives of this project are:
 
 In Phase 1, the system diagnoses fout critical diseases and recommends specialists located in the Tempe and Phoenix areas. Future developments will involve the addition of more diseases, integration of advanced diagnostic tools such as medical imaging analysis, and a broader geographic reach for specialist recommendations. This document outlines the project's methodologies, system design, and future goals.
 
+# Technologies and Tools
+The development of the Medical Diagnosis System required the use of various software, libraries, and technologies to ensure robust functionality, scalability, and user accessibility. Below is a detailed list:
+
+1. Software and Frameworks
+-	Python: Primary programming language for backend development and machine learning.
+-	PostgreSQL: Relational database for securely storing patient data and system records.
+-	Dialogflow: For chatbot development and conversational flows.
+2. Machine Learning Libraries
+-	scikit-learn: For traditional machine learning algorithms like Random Forest, Logistic Regression, and Support Vector Machine.
+-	TensorFlow and Keras: For building and training deep learning models, particularly Convolutional Neural Networks (CNNs) for image-based disease detection.
+-	PyTorch: Alternative deep learning library for neural network implementation.
+-	XGBoost: Gradient boosting library used for COVID-19 dataset analysis.
+3. Data Handling and Visualization Tools
+-	Pandas: For data manipulation and analysis.
+-	NumPy: For numerical computations.
+-	Matplotlib and Seaborn: For data visualization and exploratory data analysis.
+4. Other Tools and Services
+-	Jupyter Notebook: For model experimentation and prototyping.
+-	GitHub: Version control and code repository.
 
 # Proposed System
 The proposed Medical Diagnosis System aims to revolutionize patient diagnosis and specialist recommendations by integrating advanced machine learning techniques and a user-friendly chatbot interface. This system is built to address critical challenges in healthcare, such as delays in diagnosis, lack of specialist access, and the need for personalized care. By combining multiple trained models for various diseases with a conversational interface, the system ensures accurate and efficient healthcare support.
